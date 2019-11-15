@@ -74,4 +74,4 @@
 
 ## Hints
 * git log --branches --graph --tags --pretty=oneline --abbrev-commit
-* git stash + git stash pop
+* git stash + git stash list + git stash pop
