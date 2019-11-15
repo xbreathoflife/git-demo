@@ -73,5 +73,6 @@
 6. Сделайте второе задание.
 
 ## Hints
-* git log --branches --graph --tags --pretty=oneline --abbrev-commit
-* git stash + git stash list + git stash pop
+* git log --branches --graph --tags --pretty=oneline --abbrev-commit -- рисует граф истории коммитов.
+* git stash + git stash list + git stash pop -- прячет trackable изменения, можно применить их на другой ветке. 
+* git commit —-amend -- объединяет предыдущий коммит и staged изменения.
